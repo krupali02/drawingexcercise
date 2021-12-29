@@ -1,0 +1,112 @@
+
+
+body {
+margin: 0px;
+padding: 30px;
+font-family: 'Patrick Hand', cursive;;
+background: #faba6bb2;
+overflow: hidden;
+}
+
+canvas {
+    /* box-shadow: -3px 2px 9px 6px #c57540; */
+    cursor: pointer;
+    background-color: white;
+  }
+
+
+.tools {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.tools .color-field {
+height: 40px;
+width: 40px;
+min-height: 40px;
+min-width: 40px;
+cursor: pointer;
+display: inline-block;
+cursor: pointer;
+box-sizing: border-box;
+border-radius: 50%;
+border: 2px solid white;
+align-self: center;
+margin: 0 10px;
+}
+
+.tools .button {
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    background: #faa46b;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: 0 10px;
+}
+
+.button:hover {
+    background-color: #e47c37da ;
+}
+
+.color-picker {
+    align-self: center;
+    margin: 0 15px;
+    height: 50px;
+}
+
+.pen-range {
+    align-self: center;
+    margin: 0 10px;
+}
+
+
+
+
+#header {
+    color: black;
+    text-align: center;
+    margin-top: -27px;
+    /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+    font-family: 'Patrick Hand', cursive;
+    font-size: 55px;
+    letter-spacing: 1.75px;
+}
+
+#subheading {
+    color: black;
+    text-align: center;
+    margin-top: -2%;
+    /* font-family:-apple-system-short-body, BlinkMacSystemFont, sans-serif; */
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    letter-spacing: 1.55px;
+}
+
+#back {
+margin-left: 1.2cm;
+margin-top: 0.7cm;
+margin-bottom: -20cm;
+background-color: #faba6b;
+border-color: #ff9d42;
+font-family: 'Patrick Hand', cursive;
+border-radius: 6px;
+border-style: solid;
+color: black;
+transition: 0.35s;
+font-size: 17px;
+letter-spacing: 1.75px;
+font-weight:bold;
+}
+
+#back:hover {
+    box-shadow: 0 0px 20px #d89039;
+    cursor: pointer;
+
+}
+

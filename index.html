@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <title> Here4You </title>
+  <link rel="stylesheet" type="text/css" href="index.css" title="style" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/png" href="img/Logo.png">
+
+</head>
+
+<body>
+
+    <div class="field">
+        <button id="back" onclick="location.href='file:///C:/Users/krupa/Desktop/Websites/HereForYou/index.html'" type="button"> &#8249 Back</button>
+
+        <h1 id="header">Drawing</h1>
+        <p id="subheading" >Draw whatever you want on the canvas below!</p>
+        
+    
+        <canvas id="canvas"></canvas>
+
+        <div class="tools">
+            <button onClick="undo_last()" type="button" class="button" >Undo</button>
+            <button onClick="clear_canvas()" type="button" class="button" >Clear</button>
+
+            <div onClick="change_colour(this)" class="color-field" style="background: red"></div>
+            <div onClick="change_colour(this)" class="color-field" style="background: blue"></div>
+            <div onClick="change_colour(this)" class="color-field" style="background: green"></div>
+            <div onClick="change_colour(this)" class="color-field" style="background: yellow"></div>
+
+            <input onInput="draw_color = this.value" type="color" class="color-picker"> 
+            <input type="range" min="1" max="100" class="pen-range" onInput = "draw_width = this.value"> 
+
+        </div>
+    </div>
+
+
+</body>
+
+
+<script src="index.js"></script>  
+
+</html>
+
+
